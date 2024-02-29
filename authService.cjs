@@ -1,10 +1,9 @@
 // authService.js
-console.log("before require x")
+
 const bcrypt = require('bcrypt');
-console.log("after require x")
-console.log("before require y")
+
 const { Pool } = require('pg');
-console.log("adfe require y")
+
 
 // Initialize PostgreSQL pool
 const pool = new Pool({

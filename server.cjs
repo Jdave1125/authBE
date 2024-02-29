@@ -1,19 +1,15 @@
 // server.js
-console.log("before require A")
+
 const express = require('express');
-console.log("after require A")
-console.log("before require B")
+
 const cors = require('cors');
-console.log("after require b")
-console.log("before require C")
+
 const bodyParser = require('body-parser');
-console.log("after require c")
-console.log("before require D")
+
 const authService = require('./authService.cjs');
-console.log("after require d")
-console.log("before require E")
+
 const jwt = require('jsonwebtoken');
-console.log("after require e")
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
