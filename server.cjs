@@ -1,8 +1,13 @@
 // server.js
+console.log("before require A")
 const express = require('express');
+console.log("before require B")
 const cors = require('cors');
+console.log("before require C")
 const bodyParser = require('body-parser');
+console.log("before require D")
 const authService = require('./authService.cjs');
+console.log("before require E")
 const jwt = require('jsonwebtoken');
 
 const app = express();
